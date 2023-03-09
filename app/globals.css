@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-200 text-gray-800;
+  }
+}
+
+@layer components {
+  header {
+    @apply bg-white py-5 px-6;
+    min-width: 767px;
+  }
+  ul li {
+    @apply mx-5 inline-block;
+  }
+  .btn {
+    @apply rounded-full bg-blue-500 py-2 px-5 text-white;
+  }
+}
