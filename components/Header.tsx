@@ -9,6 +9,7 @@ export default function Header() {
         <div className="rounded-full bg-green-600">
           <h1>S</h1>
         </div>
+        <div className=""></div>
       </div>
     </nav>
   );
