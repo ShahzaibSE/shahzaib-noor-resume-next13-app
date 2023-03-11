@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <nav className="border-gray-200 bg-white px-4 py-2.5 dark:bg-gray-800 lg:px-6">
+    <nav className="border-gray-200 bg-white px-4 py-2.5 dark:bg-neutral-800 lg:px-6">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
         <a
           href="https://flowbite.com"
@@ -21,18 +21,6 @@ export default function Header() {
           </span>
         </a>
         <div className="flex items-center lg:order-2">
-          <a
-            href="#"
-            className="mr-2 rounded-lg px-4 py-2 text-sm font-medium text-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800 lg:px-5 lg:py-2.5"
-          >
-            Log in
-          </a>
-          <a
-            href="#"
-            className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 mr-2 rounded-lg px-4 py-2 text-sm font-medium text-white focus:outline-none focus:ring-4 lg:px-5 lg:py-2.5"
-          >
-            Get started
-          </a>
           <button
             data-collapse-toggle="mobile-menu-2"
             type="button"
@@ -80,7 +68,7 @@ export default function Header() {
                 className="bg-primary-700 lg:text-primary-700 block rounded py-2 pr-4 pl-3 text-white dark:text-white lg:bg-transparent lg:p-0"
                 aria-current="page"
               >
-                Home
+                About Me
               </a>
             </li>
             <li>
@@ -88,31 +76,7 @@ export default function Header() {
                 href="#"
                 className="lg:hover:text-primary-700 block border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
               >
-                Company
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="lg:hover:text-primary-700 block border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
-              >
-                Marketplace
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="lg:hover:text-primary-700 block border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
-              >
-                Features
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="lg:hover:text-primary-700 block border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
-              >
-                Team
+                Resume
               </a>
             </li>
             <li>
