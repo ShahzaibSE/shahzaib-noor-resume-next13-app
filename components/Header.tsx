@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <nav>
+    <nav className="flex items-center justify-between flex-wrap">
       
     </nav>
     // <nav className="flex flex-wrap items-center justify-between bg-#222222 p-6">
