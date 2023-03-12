@@ -7,14 +7,13 @@ export default function Header() {
   return (
     <nav className="border-gray-200 bg-white px-4 py-2.5 dark:bg-neutral-800 lg:px-6">
       {/* <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
-        <div
-          className="flex items-center"
-        >
+        <div className="flex flex-1 items-center">
           <Image
-            src="assets/letter-s.jpg"
+            src="https://flowbite.com/docs/images/logo.svg"
             className="mr-3 h-6 sm:h-9"
-            alt="Shahzaib Noor"
+            alt="Flowbite Logo"
           />
+
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             Shahzaib Noor
           </span>
@@ -88,18 +87,47 @@ export default function Header() {
           </ul>
         </div>
       </div> */}
-      <div className="flex flex-wrap items-center">
-        <div className="flex flex-wrap items-center justify-between">
+      <div className="container flex flex-shrink items-center">
+        <div className="container flex flex-1 flex-shrink items-center justify-between">
           <div className="flex h-20 w-20 items-center justify-center rounded-full bg-blue-500">
             <h1 className="font-sans text-3xl font-bold text-white">
               S
             </h1>
           </div>
-          <div className="px-2">
-            <h1 className="font-sans text-2xl font-bold text-white">
+          <div className="flex flex-grow px-2">
+            <h1 className="font-sans text-2xl font-bold text-white md: text-xs; sm: text-xs;">
               Shahzaib Noor
             </h1>
           </div>
+        </div>
+        <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
+          <ul className="mt-4 flex flex-col font-medium lg:mt-0 lg:flex-row lg:space-x-8">
+            <li>
+              <a
+                href="#"
+                className="bg-primary-700 lg:text-primary-700 block rounded py-2 pr-4 pl-3 text-white dark:text-white lg:bg-transparent lg:p-0"
+                aria-current="page"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="lg:hover:text-primary-700 block border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
+              >
+                Resume
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="lg:hover:text-primary-700 block border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
