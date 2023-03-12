@@ -6,20 +6,19 @@ import Image from "next/image";
 export default function Header() {
   return (
     <nav className="border-gray-200 bg-white px-4 py-2.5 dark:bg-neutral-800 lg:px-6">
-      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
-        <a
-          href="https://flowbite.com"
+      {/* <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
+        <div
           className="flex items-center"
         >
           <Image
-            src="https://flowbite.com/docs/images/logo.svg"
+            src="assets/letter-s.jpg"
             className="mr-3 h-6 sm:h-9"
-            alt="Title Anchor"
+            alt="Shahzaib Noor"
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             Shahzaib Noor
           </span>
-        </a>
+        </div>
         <div className="flex items-center lg:order-2">
           <button
             data-collapse-toggle="mobile-menu-2"
@@ -66,7 +65,6 @@ export default function Header() {
               <a
                 href="#"
                 className="bg-primary-700 lg:text-primary-700 block rounded py-2 pr-4 pl-3 text-white dark:text-white lg:bg-transparent lg:p-0"
-                aria-current="page"
               >
                 About Me
               </a>
@@ -89,14 +87,28 @@ export default function Header() {
             </li>
           </ul>
         </div>
+      </div> */}
+      <div className="flex flex-wrap items-center">
+        <div className="flex flex-wrap items-center justify-between">
+          <div className="flex h-20 w-20 items-center justify-center rounded-full bg-blue-500">
+            <h1 className="font-sans text-3xl font-bold text-white">
+              S
+            </h1>
+          </div>
+          <div className="px-2">
+            <h1 className="font-sans text-2xl font-bold text-white">
+              Shahzaib Noor
+            </h1>
+          </div>
+        </div>
       </div>
     </nav>
-    // <nav classNameName="flex flex-wrap items-center justify-between bg-#222222 p-6">
-    //   <div classNameName="flex flex-wrap items-center justify-between">
-    //     <div classNameName="flex h-20 w-20 items-center justify-center rounded-full bg-blue-500">
-    //       <h3 classNameName="text-white font-bold">S</h3>
+    // <nav className="flex flex-wrap items-center justify-between bg-#222222 p-6">
+    //   <div className="flex flex-wrap items-center justify-between">
+    //     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-blue-500">
+    //       <h3 className="text-white font-bold">S</h3>
     //     </div>
-    //     <div classNameName="px-5">
+    //     <div className="px-5">
     //       <p>Shahzaib Noor</p>
     //     </div>
     //   </div>
