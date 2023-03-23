@@ -27,19 +27,19 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className="border-gray-200 px-4 py-2.5 dark:bg-neutral-800 lg:px-6"
+      className="border-gray-200 md:px-4 sm:px-0 py-2.5 dark:bg-neutral-800 lg:px-6"
     >
       {({ open }) => (
         <>
           <div className="container flex flex-shrink items-center">
             <div className="container flex flex-1 flex-shrink items-center justify-between">
               <div className="flex h-20 w-20 items-center justify-center rounded-full bg-blue-500">
-                <h1 className="font-sans text-3xl font-bold text-white">
+                <h1 className="font-sans sm:text-sm md:text-2xl lg:text-3xl font-bold text-white">
                   S
                 </h1>
               </div>
               <div className="flex flex-grow px-2">
-                <h1 className="md:text-md; sm:text-sm;  font-sans text-2xl font-bold text-white">
+                <h1 className="sm:text-sm; font-sans font-bold text-white md:text-2xl lg:text-3xl">
                   Shahzaib Noor
                 </h1>
               </div>

@@ -4,14 +4,14 @@ import React, {
   useRef,
 } from "react";
 // TS Particles animation.
-import { particle_background_samples } from "./utitlities/utils";
+import { particle_background_samples } from "../utitlities/utils";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 //
 import Link from "next/link";
 import Image from "next/image";
 //
-import Header from "./Header";
+import Header from "../Header";
 
 export default function HomePage() {
   const ref = useRef(null);
@@ -586,7 +586,7 @@ export default function HomePage() {
         }}
       />
       <div className="h-screen w-screen md:p-10">
-        <div className="md:rounded-md; md:w-auto; w-full sm:rounded-none; bg-neutral-800 p-10">
+        <div className="md:rounded-md lg:rounded-lg; md:w-auto; w-full sm:rounded-none; bg-neutral-800 sm:p-5 md:p-10 lg:p-10">
           <header>
             <Header/>
           </header>
