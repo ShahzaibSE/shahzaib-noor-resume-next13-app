@@ -586,7 +586,7 @@ export default function HomePage() {
         }}
       />
       <div className="h-screen w-screen md:p-10">
-        <div className="md:rounded-md; md:w-auto; w-full lg:rounded-lg md:rounded-none bg-neutral-800 p-10">
+        <div className="md:rounded-md; md:w-auto; w-full sm:rounded-none; bg-neutral-800 p-10">
           <header>
             <Header/>
           </header>
