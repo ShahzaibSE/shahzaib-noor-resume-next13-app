@@ -12,6 +12,7 @@ import Link from "next/link";
 import Image from "next/image";
 //
 import Header from "../Header";
+import HomeContainer from "./HomeContainer";
 
 export default function HomePage() {
   const ref = useRef(null);
@@ -590,7 +591,9 @@ export default function HomePage() {
           <header>
             <Header/>
           </header>
-          <main></main>
+          <main>
+            <HomeContainer />
+          </main>
         </div>
       </div>
     </div>
