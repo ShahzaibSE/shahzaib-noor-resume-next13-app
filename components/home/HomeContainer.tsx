@@ -11,7 +11,9 @@ import { loadFull } from "tsparticles";
 
 export default function HomeContainer() {
   return (<div className="flex flex-wrap">
-    <div></div>
+    <div>
+      
+    </div>
     <div></div>
   </div>);
 }
