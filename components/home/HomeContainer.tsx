@@ -15,33 +15,35 @@ export default function HomeContainer() {
     <div className="flex flex-wrap items-center justify-around p-5 md:p-10 lg:p-20">
       <div className="flex">
         <Image
-          className="rounded-full ring-4 ring-gray-500"
+          className="rounded-full ring-4 ring-gray-500 w-full"
           alt="Shahzaib Noor"
           src="/assets/dp-animated.jpeg"
         />
       </div>
-      <div className="flex my-5">
-        {/* <div className="flex">
+      <div className="my-5 flex flex-col">
+        <div className="flex flex-wrap items-center">
           <p className="text-base text-gray-400">
             Full-Stack Software Engineer
           </p>
-        </div> */}
-        <div className="flex flex-wrap items-center">
+        </div>
+        <div className="my-5 flex flex-wrap items-center">
           <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
             Shahzaib Noor
           </h1>
         </div>
-        {/* <div className="flex">
-          <p>
-            Fusce tempor magna mi, non egestas
-            velit ultricies nec. Aenean convallis,
-            risus non condimentum gravida, odio
-            mauris ullamcorper felis, ut venenatis
-            purus ex eu mi. Quisque imperdiet
-            lacinia urna, a placerat sapien
-            pretium eu.
+        <div className="flex max-w-sm flex-wrap items-center md:max-w-md">
+          <p className="text-left text-white">
+            As a Full-Stack Software Engineer, I
+            have 5+ working years of
+            frontend/backend development
+            experience, experience in HTML, CSS,
+            Node.js, Express.js JavaScript,
+            TypeScript, Python, MongoDB, MySQL,
+            PostgreSQL, Flutter, Git, Docker etc.
+            Also have general programming
+            experience since 2012.
           </p>
-        </div> */}
+        </div>
       </div>
     </div>
   );
