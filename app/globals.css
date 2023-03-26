@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .container {
+    @apply w-auto max-w-none;
+  }
+}
+
 /* @layer base {
   body {
     @apply bg-gray-200 text-gray-800;
