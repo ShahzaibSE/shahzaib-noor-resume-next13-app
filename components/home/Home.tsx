@@ -12,6 +12,7 @@ import Link from "next/link";
 import Image from "next/image";
 //
 import Header from "../Header";
+import Footer from "../Footer";
 import HomeContainer from "./HomeContainer";
 
 export default function HomePage() {
@@ -594,6 +595,9 @@ export default function HomePage() {
           <main>
             <HomeContainer />
           </main>
+          <footer>
+            <Footer />
+          </footer>
         </div>
       </div>
     </div>
