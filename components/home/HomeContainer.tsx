@@ -9,18 +9,25 @@ import { particle_background_samples } from "../utitlities/utils";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
+export const customAnimations = {
+  zoomInAnimation: { opacity: 1, scale: 1 },
+};
 
 export default function HomeContainer() {
   return (
     <div className="container">
       <div className="flex flex-row flex-wrap items-center justify-around p-5 md:p-10 lg:p-20">
-        <div className="flex">
-          <Image
-            className="w-full rounded-full ring-4 ring-gray-500"
-            alt="Shahzaib Noor"
-            src="/assets/dp-animated.jpeg"
-          />
-        </div>
+        <motion.div whileHover={{ scale: 1.5 }}>
+          <div className="flex">
+            <Image
+              className="w-full rounded-full ring-4 ring-gray-500"
+              alt="Shahzaib Noor"
+              src="/assets/dp-animated.jpeg"
+            />
+          </div>
+        </motion.div>
         <div className="my-5 flex flex-col">
           <div className="flex flex-wrap items-center">
             <p className="text-base text-gray-400">
@@ -33,7 +40,7 @@ export default function HomeContainer() {
             </h1>
           </div>
           <div className="flex max-w-sm flex-wrap items-center md:max-w-md">
-            <p className="text-left text-white text-sm md:text-lg">
+            <p className="text-left text-sm text-white md:text-lg">
               As a Full-Stack Software Engineer, I
               have 5+ working years of
               frontend/backend development
@@ -54,7 +61,7 @@ export default function HomeContainer() {
           </h1>
         </div>
       </div>
-      <div className="flex flex-wrap flex-row justify-around items-center px-5 md:px-5 lg:px-10">
+      <div className="flex flex-row flex-wrap items-center justify-around px-5 md:px-5 lg:px-10">
         <div className="flex flex-wrap items-center justify-around">
           <div className="flex">
             <svg
@@ -63,7 +70,7 @@ export default function HomeContainer() {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="h-10 w-10 text-white hidden md:block"
+              className="hidden h-10 w-10 text-white md:block"
             >
               <path
                 stroke-linecap="round"
@@ -83,7 +90,7 @@ export default function HomeContainer() {
               </li>
               <li>
                 <div className="flex max-w-sm md:max-w-md">
-                  <p className="text-white text-sm">
+                  <p className="text-sm text-white">
                     Mauris neque libero, aliquet
                     vel mollis nec, euismod sed
                     tellus. Mauris convallis
@@ -106,7 +113,7 @@ export default function HomeContainer() {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="h-10 w-10 text-white hidden md:block"
+              className="hidden h-10 w-10 text-white md:block"
             >
               <path
                 stroke-linecap="round"
@@ -126,7 +133,7 @@ export default function HomeContainer() {
               </li>
               <li>
                 <div className="flex max-w-sm md:max-w-md">
-                  <p className="text-white text-sm">
+                  <p className="text-sm text-white">
                     Mauris neque libero, aliquet
                     vel mollis nec, euismod sed
                     tellus. Mauris convallis
@@ -142,7 +149,7 @@ export default function HomeContainer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap flex-row justify-around items-center px-5 py-10 md:px-5 lg:px-10">
+      <div className="flex flex-row flex-wrap items-center justify-around px-5 py-10 md:px-5 lg:px-10">
         <div className="flex flex-wrap items-center justify-around">
           <div className="flex">
             <svg
@@ -151,7 +158,7 @@ export default function HomeContainer() {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="h-10 w-10 text-white hidden md:block"
+              className="hidden h-10 w-10 text-white md:block"
             >
               <path
                 stroke-linecap="round"
@@ -171,7 +178,7 @@ export default function HomeContainer() {
               </li>
               <li>
                 <div className="flex max-w-sm md:max-w-md">
-                  <p className="text-white text-sm">
+                  <p className="text-sm text-white">
                     Mauris neque libero, aliquet
                     vel mollis nec, euismod sed
                     tellus. Mauris convallis
@@ -194,7 +201,7 @@ export default function HomeContainer() {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="h-10 w-10 text-white hidden md:block"
+              className="hidden h-10 w-10 text-white md:block"
             >
               <path
                 stroke-linecap="round"
@@ -214,7 +221,7 @@ export default function HomeContainer() {
               </li>
               <li>
                 <div className="flex max-w-sm md:max-w-md">
-                  <p className="text-white text-sm">
+                  <p className="text-sm text-white">
                     Mauris neque libero, aliquet
                     vel mollis nec, euismod sed
                     tellus. Mauris convallis
@@ -230,7 +237,6 @@ export default function HomeContainer() {
           </div>
         </div>
       </div>
-     
     </div>
   );
 }
