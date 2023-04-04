@@ -2,6 +2,7 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import {
   Disclosure,
   Menu,
@@ -24,24 +25,27 @@ function classNames(...classes: any) {
 }
 
 export default function Header() {
+  const router = useRouter();
   return (
     <Disclosure
       as="nav"
-      className="border-gray-200 md:px-4 sm:px-0 py-2.5 dark:bg-neutral-800 lg:px-6"
+      className="border-gray-200 py-2.5 dark:bg-neutral-800 sm:px-0 md:px-4 lg:px-6"
     >
       {({ open }) => (
         <>
           <div className="container flex flex-shrink items-center">
             <div className="container flex flex-1 flex-shrink items-center justify-between">
-              <div className="flex h-12 w-12 md:h-20 md:w-20 lg:h-20 lg:w-20 items-center justify-center rounded-full bg-blue-500">
-                <h1 className="font-sans sm:text-sm md:text-2xl lg:text-3xl font-bold text-white">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 md:h-20 md:w-20 lg:h-20 lg:w-20">
+                <h1 className="font-sans font-bold text-white sm:text-sm md:text-2xl lg:text-3xl">
                   S
                 </h1>
               </div>
               <div className="flex flex-grow px-2">
-                <h1 className="sm:text-sm; font-sans font-bold text-white md:text-2xl lg:text-3xl">
-                  Shahzaib Noor
-                </h1>
+                <Link href="/">
+                  <h1 className="sm:text-sm; font-sans font-bold text-white md:text-2xl lg:text-3xl">
+                    Shahzaib Noor
+                  </h1>
+                </Link>
               </div>
             </div>
             <div className="flex items-center lg:order-2">
