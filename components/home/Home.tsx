@@ -7,6 +7,8 @@ import React, {
 import { particle_background_samples } from "../utitlities/utils";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { motion } from "framer-motion";
+import { variants } from "../utitlities/utils";
 //
 import Link from "next/link";
 import Image from "next/image";
@@ -588,13 +590,20 @@ export default function HomePage() {
         }}
       />
       <div className="h-screen w-screen md:p-10">
-        <div className="md:rounded-md lg:rounded-lg; md:w-auto; w-full sm:rounded-none; bg-neutral-800 sm:p-5 md:p-10 lg:p-10">
+        <div className="lg:rounded-lg; md:w-auto; sm:rounded-none; w-full bg-neutral-800 sm:p-5 md:rounded-md md:p-10 lg:p-10">
           <header>
-            <Header/>
+            <Header />
           </header>
-          <main>
+          <motion.main
+            variants={variants} // Pass the variant object into Framer Motion
+            initial="hidden" // Set the initial state to variants.hidden
+            animate="enter" // Animated state to variants.enter
+            exit="exit" // Exit state (used later) to variants.exit
+            transition={{ type: "linear" }} // Set the transition to linear
+            className=""
+          >
             <HomeContainer />
-          </main>
+          </motion.main>
           <footer>
             <Footer />
           </footer>
