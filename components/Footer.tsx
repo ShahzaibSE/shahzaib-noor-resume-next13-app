@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex items-center justify-end py-5 md:py-0">
-        <h1 className="text-right text-sm text-white">
+        <h1 className="text-right text-sm text-white font-bold">
           © 2023 All rights reserved. Shahzaib
           Noor.
         </h1>
