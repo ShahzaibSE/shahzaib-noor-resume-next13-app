@@ -17,6 +17,7 @@ import {
 const navigation = [
   // { name: "About", href: "#", current: true },
   { name: "Resume", href: "#", current: false },
+  { name: "Portfolio", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
 
@@ -80,7 +81,7 @@ export default function Header() {
                     className="bg-primary-700 lg:text-primary-700 block rounded py-2 pr-4 pl-3 text-white dark:text-white lg:bg-transparent lg:p-0"
                     aria-current="page"
                   >
-                    About
+                    Resume
                   </a>
                 </li>
                 <li>
@@ -88,7 +89,7 @@ export default function Header() {
                     href="#"
                     className="lg:hover:text-primary-700 block border-b border-gray-100 py-2 pr-4 pl-3 text-white hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                   >
-                    Resume
+                    Portfolio
                   </a>
                 </li>
                 <li>
