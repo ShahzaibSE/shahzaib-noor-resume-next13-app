@@ -9,6 +9,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import SkillsContainer from "../skills/SkillsContainer";
 
 export default function ResumeContainer() {
   return (
@@ -145,6 +146,32 @@ export default function ResumeContainer() {
               </li>
             </ol>
           </div>
+        </div>
+      </div>
+      <div className="px-10 md:px-0 md:py-5">
+        <div className="flex p-5 md:pb-6 md:pt-10">
+          <h2 className="text-lg font-bold text-white">
+            Skills
+          </h2>
+        </div>
+        <div className="grid grid-flow-row md:grid-flow-col gap-4">
+          <div className="w-full">
+            <div className="mb-1 text-base font-medium text-white">
+              HTML/CSS
+            </div>
+            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            </div>
+          </div>
+          <div className="w-full">
+            <div className="mb-1 text-base font-medium text-white">
+              JavaScript
+            </div>
+            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
