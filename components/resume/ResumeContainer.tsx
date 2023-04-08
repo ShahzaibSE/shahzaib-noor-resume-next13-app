@@ -9,7 +9,6 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import SkillsContainer from "../skills/SkillsContainer";
 
 export default function ResumeContainer() {
   return (
