@@ -25,8 +25,8 @@ export default function ResumeContainer() {
           </h3>
         </div>
       </div>
-      <div className="grid grid-flow-row-dense grid-cols-2 gap-2 flex-wrap">
-        <div>
+      <div className="grid grid-flow-row md:grid-flow-col">
+        <div className="px-10 md:px-0 md:py-0">
           <div className="flex p-5 md:py-5">
             <h2 className="text-lg font-bold text-white">
               Education
@@ -86,7 +86,7 @@ export default function ResumeContainer() {
             </ol>
           </div>
         </div>
-        <div>
+        <div className="p-10 md:p-0">
           <div className="flex p-5 md:py-5">
             <h2 className="text-lg font-bold text-white">
               Experience
