@@ -39,7 +39,7 @@ export default function ResumeContainer() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   February 2022
                 </time>
-                <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-sm font-semibold text-white">
                   Application UI code in Tailwind
                   CSS
                 </h3>
@@ -56,7 +56,7 @@ export default function ResumeContainer() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   March 2022
                 </time>
-                <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-sm font-semibold text-white">
                   Marketing UI design in Figma
                 </h3>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
@@ -72,7 +72,7 @@ export default function ResumeContainer() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   April 2022
                 </time>
-                <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-sm font-semibold text-white">
                   E-Commerce UI code in Tailwind
                   CSS
                 </h3>
@@ -99,7 +99,7 @@ export default function ResumeContainer() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   February 2022
                 </time>
-                <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-sm font-semibold text-white">
                   Application UI code in Tailwind
                   CSS
                 </h3>
@@ -116,7 +116,7 @@ export default function ResumeContainer() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   March 2022
                 </time>
-                <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-sm font-semibold text-white">
                   Marketing UI design in Figma
                 </h3>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
@@ -132,7 +132,7 @@ export default function ResumeContainer() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   April 2022
                 </time>
-                <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-sm font-semibold text-white">
                   E-Commerce UI code in Tailwind
                   CSS
                 </h3>
