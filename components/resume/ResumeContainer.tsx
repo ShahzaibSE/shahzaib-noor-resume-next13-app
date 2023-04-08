@@ -173,6 +173,44 @@ export default function ResumeContainer() {
           </div>
 
         </div>
+        <div className="grid grid-flow-row md:grid-flow-col gap-4">
+          <div className="w-full">
+            <div className="mb-1 text-base font-medium text-white">
+              HTML/CSS
+            </div>
+            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            </div>
+          </div>
+          <div className="w-full">
+            <div className="mb-1 text-base font-medium text-white">
+              JavaScript
+            </div>
+            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            </div>
+          </div>
+
+        </div>
+        <div className="grid grid-flow-row md:grid-flow-col gap-4">
+          <div className="w-full">
+            <div className="mb-1 text-base font-medium text-white">
+              HTML/CSS
+            </div>
+            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            </div>
+          </div>
+          <div className="w-full">
+            <div className="mb-1 text-base font-medium text-white">
+              JavaScript
+            </div>
+            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   );
