@@ -154,62 +154,149 @@ export default function ResumeContainer() {
             Skills
           </h2>
         </div>
-        <div className="grid grid-flow-row md:grid-flow-col gap-4">
-          <div className="w-full">
-            <div className="mb-1 text-base font-medium text-white">
-              HTML/CSS
+        <div className="grid grid-flow-row gap-2 md:grid-flow-col">
+          <div className="relative pt-1">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
+                  HTML/CSS
+                </span>
+              </div>
+              <div className="text-right">
+                <span className="inline-block text-xs font-semibold text-blue-600">
+                  100%
+                </span>
+              </div>
             </div>
-            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
-              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            <div className="mb-4 flex h-2 overflow-hidden rounded bg-blue-200 text-xs">
+              <div className="flex w-full flex-col justify-center whitespace-nowrap bg-blue-500 text-center text-white shadow-none"></div>
             </div>
           </div>
-          <div className="w-full">
-            <div className="mb-1 text-base font-medium text-white">
-              JavaScript
+          <div className="relative pt-1">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
+                  JavaScript
+                </span>
+              </div>
+              <div className="text-right">
+                <span className="inline-block text-xs font-semibold text-blue-600">
+                  90%
+                </span>
+              </div>
             </div>
-            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
-              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            <div className="mb-4 flex h-2 overflow-hidden rounded bg-blue-200 text-xs">
+              <div className="flex w-11/12 flex-col justify-center whitespace-nowrap bg-blue-500 text-center text-white shadow-none"></div>
             </div>
           </div>
-
         </div>
-        <div className="grid grid-flow-row md:grid-flow-col gap-4">
-          <div className="w-full">
-            <div className="mb-1 text-base font-medium text-white">
-              HTML/CSS
+        <div className="grid grid-flow-row gap-2 md:grid-flow-col">
+          <div className="relative pt-1">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
+                  TypeScript
+                </span>
+              </div>
+              <div className="text-right">
+                <span className="inline-block text-xs font-semibold text-blue-600">
+                  90%
+                </span>
+              </div>
             </div>
-            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
-              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            <div className="mb-4 flex h-2 overflow-hidden rounded bg-blue-200 text-xs">
+              <div className="flex w-11/12 flex-col justify-center whitespace-nowrap bg-blue-500 text-center text-white shadow-none"></div>
             </div>
           </div>
-          <div className="w-full">
-            <div className="mb-1 text-base font-medium text-white">
-              JavaScript
+          <div className="relative pt-1">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
+                  Flutter
+                </span>
+              </div>
+              <div className="text-right">
+                <span className="inline-block text-xs font-semibold text-blue-600">
+                  90%
+                </span>
+              </div>
             </div>
-            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
-              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            <div className="mb-4 flex h-2 overflow-hidden rounded bg-blue-200 text-xs">
+              <div className="flex w-11/12 flex-col justify-center whitespace-nowrap bg-blue-500 text-center text-white shadow-none"></div>
             </div>
           </div>
-
         </div>
-        <div className="grid grid-flow-row md:grid-flow-col gap-4">
-          <div className="w-full">
-            <div className="mb-1 text-base font-medium text-white">
-              HTML/CSS
+        <div className="grid grid-flow-row gap-2 md:grid-flow-col">
+          <div className="relative pt-1">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
+                  Node.js
+                </span>
+              </div>
+              <div className="text-right">
+                <span className="inline-block text-xs font-semibold text-blue-600">
+                  90%
+                </span>
+              </div>
             </div>
-            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
-              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            <div className="mb-4 flex h-2 overflow-hidden rounded bg-blue-200 text-xs">
+              <div className="flex w-11/12 flex-col justify-center whitespace-nowrap bg-blue-500 text-center text-white shadow-none"></div>
             </div>
           </div>
-          <div className="w-full">
-            <div className="mb-1 text-base font-medium text-white">
-              JavaScript
+          <div className="relative pt-1">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
+                  Express.js
+                </span>
+              </div>
+              <div className="text-right">
+                <span className="inline-block text-xs font-semibold text-blue-600">
+                  90%
+                </span>
+              </div>
             </div>
-            <div className="mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700">
-              <div className="h-2.5 w-full rounded-full bg-blue-600"></div>
+            <div className="mb-4 flex h-2 overflow-hidden rounded bg-blue-200 text-xs">
+              <div className="flex w-11/12 flex-col justify-center whitespace-nowrap bg-blue-500 text-center text-white shadow-none"></div>
             </div>
           </div>
-
+        </div>
+        <div className="grid grid-flow-row gap-2 md:grid-flow-col">
+          <div className="relative pt-1">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
+                  React.js
+                </span>
+              </div>
+              <div className="text-right">
+                <span className="inline-block text-xs font-semibold text-blue-600">
+                  90%
+                </span>
+              </div>
+            </div>
+            <div className="mb-4 flex h-2 overflow-hidden rounded bg-blue-200 text-xs">
+              <div className="flex w-11/12 flex-col justify-center whitespace-nowrap bg-blue-500 text-center text-white shadow-none"></div>
+            </div>
+          </div>
+          <div className="relative pt-1">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
+                  Next.js
+                </span>
+              </div>
+              <div className="text-right">
+                <span className="inline-block text-xs font-semibold text-blue-600">
+                  90%
+                </span>
+              </div>
+            </div>
+            <div className="mb-4 flex h-2 overflow-hidden rounded bg-blue-200 text-xs">
+              <div className="flex w-11/12 flex-col justify-center whitespace-nowrap bg-blue-500 text-center text-white shadow-none"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
