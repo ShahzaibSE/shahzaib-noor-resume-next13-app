@@ -34,7 +34,7 @@ export default function Header() {
     >
       {({ open }) => (
         <>
-          <div className="container flex flex-shrink items-center">
+          <div className="container flex flex-shrink items-center p-6">
             <div className="container flex flex-1 flex-shrink items-center justify-between">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 md:h-20 md:w-20 lg:h-20 lg:w-20">
                 <h1 className="font-sans font-bold text-white sm:text-sm md:text-2xl lg:text-3xl">
