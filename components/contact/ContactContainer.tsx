@@ -33,46 +33,48 @@ export default function ContactContainer() {
         </div>
       </div> */}
       <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-3 lg:grid-flow-col lg:grid-cols-3">
-        <motion.div whileHover={{ scale: 1.2 }}>
-          <div className="flex justify-between">
-            <div className="w-max">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="relative top-6 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
-                />
-              </svg>
+        <div>
+          <motion.div whileHover={{ scale: 1.2 }}>
+            <div className="flex justify-between">
+              <div className="w-max">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="relative top-6 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                  />
+                </svg>
+              </div>
+              <div>
+                <ul className="list-none">
+                  <li>
+                    <div className="flex">
+                      <h1 className="text-sm font-semibold text-white md:text-sm lg:text-lg">
+                        +923032057794
+                      </h1>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex max-w-sm md:max-w-md">
+                      <p className="text-sm text-neutral-500">
+                        You are today, you have a
+                        laureet fringilla quis,
+                        you have a precious life.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div>
-              <ul className="list-none">
-                <li>
-                  <div className="flex">
-                    <h1 className="text-sm font-semibold text-white md:text-sm lg:text-lg">
-                      +923032057794
-                    </h1>
-                  </div>
-                </li>
-                <li>
-                  <div className="flex max-w-sm md:max-w-md">
-                    <p className="text-sm text-neutral-500">
-                      You are today, you have a
-                      laureet fringilla quis, you
-                      have a precious life.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
