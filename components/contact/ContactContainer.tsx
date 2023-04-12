@@ -34,15 +34,15 @@ export default function ContactContainer() {
       </div> */}
       <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-3 lg:grid-flow-col lg:grid-cols-3">
         <motion.div whileHover={{ scale: 1.2 }}>
-          <div className="grid grid-flow-col grid-cols-2">
-            <div className="flex">
+          <div className="flex justify-between">
+            <div className="w-max">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="h-6 w-6 relative top-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
+                className="relative top-6 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
               >
                 <path
                   strokeLinecap="round"
@@ -51,7 +51,7 @@ export default function ContactContainer() {
                 />
               </svg>
             </div>
-            <div className="flex">
+            <div>
               <ul className="list-none">
                 <li>
                   <div className="flex">
