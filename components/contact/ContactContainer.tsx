@@ -33,7 +33,7 @@ export default function ContactContainer() {
         </div>
       </div> */}
       <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-3 lg:grid-flow-col lg:grid-cols-3">
-        <div className="flex items-center flex-col justify-around">
+        <div className="flex flex-col items-center justify-around">
           <div className="p-4">
             <motion.div
               whileHover={{ scale: 1.2 }}
@@ -168,6 +168,16 @@ export default function ContactContainer() {
                 </div>
               </div>
             </motion.div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-around">
+          <div className="flex">
+            <h1 className="text-2xl font-semibold text-white underline decoration-blue-500">
+              What I Do
+            </h1>
+          </div>
+          <div>
+            
           </div>
         </div>
       </div>
