@@ -170,14 +170,43 @@ export default function ContactContainer() {
             </motion.div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-around">
+        <div className="flex flex-col items-center justify-start my-6 md:my-0">
           <div className="flex">
             <h1 className="text-2xl font-semibold text-white underline decoration-blue-500">
-              What I Do
+              How Can I Help You?
             </h1>
           </div>
-          <div>
-            
+          <div className="py-6">
+            <form className="w-full max-w-sm">
+              <div className="flex flex-wrap items-center justify-evenly">
+                <div>
+                  <div className="py-2">
+                    <input
+                      className="bg-neutral-800 rounded-md min-w-full"
+                      type={"text"}
+                      placeholder="Full Name"
+                      required
+                    />
+                  </div>
+                  <div className="py-2 md:w-2/5">
+                    <input
+                      className="bg-neutral-800 rounded-md"
+                      type={"text"}
+                      placeholder="Email Address"
+                      required
+                    />
+                  </div>
+                  <div className="py-2 md:w-2/5">
+                    <input
+                      className="bg-neutral-800 rounded-md"
+                      type={"text"}
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
