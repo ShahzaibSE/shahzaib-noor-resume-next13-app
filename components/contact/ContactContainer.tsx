@@ -32,7 +32,7 @@ export default function ContactContainer() {
           </div>
         </div>
       </div> */}
-      <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-3 lg:grid-flow-col lg:grid-cols-3">
+      <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2 lg:grid-flow-col lg:grid-cols-2">
         <div className="flex flex-col items-center justify-around">
           <div className="p-4">
             <motion.div
@@ -170,45 +170,134 @@ export default function ContactContainer() {
             </motion.div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-start my-6 md:my-0">
+        <div>
+          <form>
+            <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2">
+              <div>
+                <div className="flex flex-col flex-wrap items-center justify-evenly md:items-start md:justify-evenly lg:items-start lg:justify-evenly">
+                  <div className="p-6">
+                    <h1 className="text-2xl font-semibold text-white underline decoration-blue-500">
+                      How Can I Help You?
+                    </h1>
+                  </div>
+                  <div className="px-6 flex">
+                    <div>
+                      <input
+                        className="min-w-full rounded-md bg-neutral-800"
+                        type={"text"}
+                        placeholder="Full Name"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="px-6 flex">
+                    <div>
+                      <input
+                        className="min-w-full rounded-md bg-neutral-800"
+                        type="email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="px-6 flex">
+                    <div>
+                      <input
+                        className="min-w-full rounded-md bg-neutral-800"
+                        type="text"
+                        placeholder="Subject"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col flex-wrap items-center justify-center md:items-start md:justify-evenly lg:items-start lg:justify-start">
+                <div>
+                  <textarea
+                    className="bg-neutral-800"
+                    rows={7}
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div className="px-6 flex">
+                    <div className="">
+                      <button
+                        type="submit"
+                        className="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </div>f
+              </div>
+            </div>
+          </form>
+        </div>
+        {/* <div className="my-6 flex flex-col items-center justify-start md:my-0">
           <div className="flex">
             <h1 className="text-2xl font-semibold text-white underline decoration-blue-500">
               How Can I Help You?
             </h1>
           </div>
           <div className="py-6">
-            <form className="w-full max-w-sm">
-              <div className="flex flex-wrap items-center justify-evenly">
+            <form className="gird w-full max-w-sm md:grid-flow-col">
+              <div className="flex flex-col items-center justify-start md:my-0 lg:my-0">
                 <div>
-                  <div className="py-2">
-                    <input
-                      className="bg-neutral-800 rounded-md min-w-full"
-                      type={"text"}
-                      placeholder="Full Name"
-                      required
-                    />
-                  </div>
-                  <div className="py-2 md:w-2/5">
-                    <input
-                      className="bg-neutral-800 rounded-md"
-                      type={"text"}
-                      placeholder="Email Address"
-                      required
-                    />
-                  </div>
-                  <div className="py-2 md:w-2/5">
-                    <input
-                      className="bg-neutral-800 rounded-md"
-                      type={"text"}
-                      placeholder="Subject"
-                      required
-                    />
-                  </div>
+                  <ul className="list-none">
+                    <li>
+                      <div className="py-2">
+                        <input
+                          className="min-w-full rounded-md bg-neutral-800"
+                          type={"text"}
+                          placeholder="Full Name"
+                          required
+                        />
+                      </div>
+                    </li>
+                    <li>
+                      <div className="py-2 md:w-2/5">
+                        <input
+                          className="rounded-md bg-neutral-800"
+                          type={"text"}
+                          placeholder="Email Address"
+                          required
+                        />
+                      </div>
+                    </li>
+                    <li>
+                      <div className="py-2 md:w-2/5">
+                        <input
+                          className="rounded-md bg-neutral-800"
+                          type={"text"}
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </form>
           </div>
         </div>
+        <div className="flex flex-col items-center justify-center gap-3">
+          <div>
+            <textarea
+              className="bg-neutral-800"
+              rows={7}
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div className="">
+            <button
+              type="submit"
+              className="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+             Send Message
+            </button>
+          </div>
+        </div> */}
       </div>
     </div>
   );
