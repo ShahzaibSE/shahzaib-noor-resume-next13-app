@@ -32,7 +32,7 @@ export default function ContactContainer() {
           </div>
         </div>
       </div> */}
-      <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2 lg:grid-flow-col lg:grid-cols-2">
+      <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2 lg:grid-flow-col lg:grid-cols-2 md:gap-1">
         <div className="flex flex-col items-center justify-around">
           <div className="p-4">
             <motion.div
@@ -175,7 +175,7 @@ export default function ContactContainer() {
             <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2">
               <div>
                 <div className="flex flex-col flex-wrap items-center justify-center md:items-start md:justify-center lg:items-start lg:justify-center">
-                  <div className="p-6">
+                  <div className="py-6">
                     <h1 className="text-2xl font-semibold text-white underline decoration-blue-500">
                       How Can I Help You?
                     </h1>
@@ -183,7 +183,7 @@ export default function ContactContainer() {
                   <div className="my-2 flex">
                     <div>
                       <input
-                        className="min-w-full rounded-md bg-neutral-800"
+                        className="rounded-md bg-neutral-800 max-w-full"
                         type={"text"}
                         placeholder="Full Name"
                         required
@@ -193,7 +193,7 @@ export default function ContactContainer() {
                   <div className="my-2 flex">
                     <div>
                       <input
-                        className="min-w-full rounded-md bg-neutral-800"
+                        className="w-full rounded-md bg-neutral-800"
                         type="email"
                         placeholder="Email"
                         required
@@ -203,7 +203,7 @@ export default function ContactContainer() {
                   <div className="my-2 flex">
                     <div>
                       <input
-                        className="min-w-full rounded-md bg-neutral-800"
+                        className="w-full rounded-md bg-neutral-800"
                         type="text"
                         placeholder="Subject"
                         required
@@ -213,7 +213,7 @@ export default function ContactContainer() {
                 </div>
               </div>
               <div className="flex flex-col flex-wrap items-center justify-center md:items-start md:justify-evenly lg:items-start lg:justify-start">
-                <div>
+                <div className="md:mt-20 lg:mt-20 xl:mt-20">
                   <textarea
                     className="bg-neutral-800"
                     rows={7}
