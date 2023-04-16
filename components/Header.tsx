@@ -169,8 +169,8 @@ export default function Header() {
         </button>
       </div>
       <div
-        className={`mt-8 flex-1 justify-self-center pb-3 md:mt-0 md:block md:pb-0 ${
-          navbar ? "block" : "hidden"
+        className={`mt-8 items-center justify-between pb-3 md:mt-0 md:block md:pb-0 ${
+          navbar ? "flex" : "hidden"
         }`}
       >
         <ul className="mt-4 flex flex-col rounded-lg border font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0">
