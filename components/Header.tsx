@@ -123,7 +123,7 @@ export default function Header() {
     //   </div>
     // </nav>
 
-    <div className="container flex flex-shrink items-center p-6">
+    <div className="container flex flex-wrap justify-between items-center p-6 xl:max-w-7xl xl:mx-auto max-w-full w-full">
       <div className="container flex flex-1 flex-shrink items-center justify-between">
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 md:h-20 md:w-20 lg:h-20 lg:w-20">
           <h1 className="font-sans font-bold text-white sm:text-sm md:text-2xl lg:text-3xl">
@@ -168,9 +168,9 @@ export default function Header() {
           </svg>
         </button>
       </div>
-      <div
-        className={`mt-8 items-center justify-between pb-3 md:mt-0 md:block md:pb-0 ${
-          navbar ? "flex" : "hidden"
+      <nav
+        className={`lg:flex lg:items-center lg:w-auto w-full ${
+          navbar ? "block" : "hidden"
         }`}
       >
         <ul className="mt-4 flex flex-col rounded-lg border font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0">
@@ -200,7 +200,7 @@ export default function Header() {
             </Link>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
   // return (
