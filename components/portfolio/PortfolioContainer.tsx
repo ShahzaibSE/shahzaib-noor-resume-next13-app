@@ -2,7 +2,10 @@
 import React from 'react'
 
 export default function PortfolioContainer() {
+  const projects = [];
   return (
-    <div>PortfolioContainer</div>
+    <div className="container">
+
+    </div>
   )
 }

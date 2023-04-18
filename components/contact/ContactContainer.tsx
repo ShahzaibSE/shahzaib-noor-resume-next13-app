@@ -183,7 +183,7 @@ export default function ContactContainer() {
                   <div className="my-2 flex">
                     <div>
                       <input
-                        className="rounded-md bg-neutral-800 max-w-full"
+                        className="rounded-md bg-neutral-800 max-w-full text-white"
                         type={"text"}
                         placeholder="Full Name"
                         required
@@ -193,7 +193,7 @@ export default function ContactContainer() {
                   <div className="my-2 flex">
                     <div>
                       <input
-                        className="w-full rounded-md bg-neutral-800"
+                        className="w-full rounded-md bg-neutral-800 text-white"
                         type="email"
                         placeholder="Email"
                         required
@@ -203,7 +203,7 @@ export default function ContactContainer() {
                   <div className="my-2 flex">
                     <div>
                       <input
-                        className="w-full rounded-md bg-neutral-800"
+                        className="w-full rounded-md bg-neutral-800 text-white"
                         type="text"
                         placeholder="Subject"
                         required
@@ -215,7 +215,7 @@ export default function ContactContainer() {
               <div className="flex flex-col flex-wrap items-center justify-center md:items-start md:justify-evenly lg:items-start lg:justify-start">
                 <div className="md:mt-20 lg:mt-20 xl:mt-20">
                   <textarea
-                    className="bg-neutral-800"
+                    className="bg-neutral-800 text-white"
                     rows={7}
                     placeholder="Message"
                   ></textarea>
