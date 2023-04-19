@@ -32,8 +32,8 @@ export default function ContactContainer() {
           </div>
         </div>
       </div> */}
-      <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2 lg:grid-flow-col lg:grid-cols-2 md:gap-1">
-        <div className="flex flex-col items-center justify-around">
+      <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2 md:gap-1 lg:grid-flow-col lg:grid-cols-2">
+        <div className="flex flex-col px-10 items-start md:px-0 justify-around">
           <div className="p-4">
             <motion.div
               whileHover={{ scale: 1.2 }}
@@ -46,7 +46,7 @@ export default function ContactContainer() {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="relative top-6 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
+                    className="relative top-2 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
                   >
                     <path
                       strokeLinecap="round"
@@ -67,10 +67,8 @@ export default function ContactContainer() {
                     <li>
                       <div className="flex max-w-sm md:max-w-md">
                         <p className="text-sm text-neutral-500">
-                          You are today, you have
-                          a laureet fringilla
-                          quis, you have a
-                          precious life.
+                          Contact me via mobile
+                          number.
                         </p>
                       </div>
                     </li>
@@ -89,14 +87,14 @@ export default function ContactContainer() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
+                    stroke-width="1.5"
                     stroke="currentColor"
-                    className="relative top-6 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
+                    className="relative top-2 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
                   >
                     <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"
                     />
                   </svg>
                 </div>
@@ -105,17 +103,15 @@ export default function ContactContainer() {
                     <li>
                       <div className="flex">
                         <h1 className="text-sm font-semibold text-white md:text-sm lg:text-lg">
-                          +923032057794
+                          shahzaibnoor40@gmail.com
                         </h1>
                       </div>
                     </li>
                     <li>
                       <div className="flex max-w-sm md:max-w-md">
                         <p className="text-sm text-neutral-500">
-                          You are today, you have
-                          a laureet fringilla
-                          quis, you have a
-                          precious life.
+                          Feel free to contact me
+                          via email.
                         </p>
                       </div>
                     </li>
@@ -134,14 +130,19 @@ export default function ContactContainer() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
+                    stroke-width="1.5"
                     stroke="currentColor"
-                    className="relative top-6 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
+                    className="relative top-2 h-6 w-6 text-white md:h-8 md:w-8 lg:h-8 lg:w-8"
                   >
                     <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                     />
                   </svg>
                 </div>
@@ -150,17 +151,14 @@ export default function ContactContainer() {
                     <li>
                       <div className="flex">
                         <h1 className="text-sm font-semibold text-white md:text-sm lg:text-lg">
-                          +923032057794
+                          Karachi
                         </h1>
                       </div>
                     </li>
                     <li>
                       <div className="flex max-w-sm md:max-w-md">
                         <p className="text-sm text-neutral-500">
-                          You are today, you have
-                          a laureet fringilla
-                          quis, you have a
-                          precious life.
+                          Sindh, Pakistan
                         </p>
                       </div>
                     </li>
@@ -170,7 +168,7 @@ export default function ContactContainer() {
             </motion.div>
           </div>
         </div>
-        <div>
+        <div className="flex flex-wrap flex-col items-center justify-between">
           <form>
             <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2">
               <div>
@@ -183,7 +181,7 @@ export default function ContactContainer() {
                   <div className="my-2 flex">
                     <div>
                       <input
-                        className="rounded-md bg-neutral-800 max-w-full text-white"
+                        className="max-w-full rounded-md bg-neutral-800 text-white"
                         type={"text"}
                         placeholder="Full Name"
                         required
@@ -200,7 +198,7 @@ export default function ContactContainer() {
                       />
                     </div>
                   </div>
-                  <div className="my-2 flex">
+                  <div className="my-2 flex flex-wrap">
                     <div>
                       <input
                         className="w-full rounded-md bg-neutral-800 text-white"
@@ -221,15 +219,15 @@ export default function ContactContainer() {
                   ></textarea>
                 </div>
                 <div className="my-4 flex">
-                    <div className="">
-                      <button
-                        type="submit"
-                        className="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                      >
-                        Send Message
-                      </button>
-                    </div>
+                  <div className="">
+                    <button
+                      type="submit"
+                      className="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Send Message
+                    </button>
                   </div>
+                </div>
               </div>
             </div>
           </form>
