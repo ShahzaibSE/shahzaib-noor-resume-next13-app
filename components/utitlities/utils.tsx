@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Image from "next/image";
 import {
   FaGithub,
@@ -1142,9 +1142,15 @@ export interface Project {
   name: string;
   description?: string;
   imageUrl: string;
+  sourceCodeUrl: string;
 }
 
-export function ProjectCard({name, description, imageUrl}:Project) {
+export function ProjectCard({
+  name,
+  description,
+  imageUrl,
+  sourceCodeUrl
+}: Project) {
   return (
     <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
       <a href="#">
@@ -1161,19 +1167,33 @@ export function ProjectCard({name, description, imageUrl}:Project) {
           </h5>
         </a>
         {
-         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          {description} : 
-        </p>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            {description}
+          </p>
         }
-        <a
-          href="#"
+        <Link
+          href={ sourceCodeUrl !== null ? sourceCodeUrl : "https://github.com/ShahzaibSE" }
+          target="_blank"
           className="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
-          Source Code
-          <Link href="https://github.com/ShahzaibSE" target="_blank">
-            <FaGithub className="text-white" />
-          </Link>
-        </a>
+          <span className="pr-1">
+            Source Code
+          </span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              className="h-4 w-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+              />
+            </svg>
+        </Link>
       </div>
     </div>
   );
