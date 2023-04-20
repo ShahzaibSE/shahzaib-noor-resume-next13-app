@@ -85,21 +85,25 @@ export default function HomeContainer() {
                 <li>
                   <div className="flex">
                     <h1 className="text-sm font-semibold text-white md:text-sm lg:text-lg">
-                      Copywrite
+                      Analyze Requirements
                     </h1>
                   </div>
                 </li>
                 <li>
                   <div className="flex max-w-sm md:max-w-md">
                     <p className="text-sm text-white">
-                      Mauris neque libero, aliquet
-                      vel mollis nec, euismod sed
-                      tellus. Mauris convallis
-                      dictum elit id volutpat.
-                      Vivamus blandit, dolor vitae
-                      lacinia maximus, risus velit
-                      vehicula odio, a tincidunt
-                      turpis turpis tempus ex.
+                      I will be responsible to
+                      understand requirements and
+                      suggest suitable solutions
+                      to problems. Using agile
+                      methodology User will be
+                      part of the iterative
+                      process of the software
+                      design. We will do proper
+                      documentation while
+                      utilizing tools like Figma
+                      to get better grasp of the
+                      User Interface.
                     </p>
                   </div>
                 </li>
@@ -130,21 +134,19 @@ export default function HomeContainer() {
                 <li>
                   <div className="flex">
                     <h1 className="text-sm font-semibold text-white md:text-sm lg:text-lg">
-                      Copywrite
+                      Development
                     </h1>
                   </div>
                 </li>
                 <li>
                   <div className="flex max-w-sm md:max-w-md">
                     <p className="text-sm text-white">
-                      Mauris neque libero, aliquet
-                      vel mollis nec, euismod sed
-                      tellus. Mauris convallis
-                      dictum elit id volutpat.
-                      Vivamus blandit, dolor vitae
-                      lacinia maximus, risus velit
-                      vehicula odio, a tincidunt
-                      turpis turpis tempus ex.
+                      I will be using latest state
+                      of the art technology in
+                      order to produce robust,
+                      scalable and highly
+                      performant software
+                      solutions.
                     </p>
                   </div>
                 </li>
@@ -177,21 +179,22 @@ export default function HomeContainer() {
                 <li>
                   <div className="flex">
                     <h1 className="text-sm font-semibold text-white md:text-sm lg:text-lg">
-                      Copywrite
+                      Testing
                     </h1>
                   </div>
                 </li>
                 <li>
                   <div className="flex max-w-sm md:max-w-md">
                     <p className="text-sm text-white">
-                      Mauris neque libero, aliquet
-                      vel mollis nec, euismod sed
-                      tellus. Mauris convallis
-                      dictum elit id volutpat.
-                      Vivamus blandit, dolor vitae
-                      lacinia maximus, risus velit
-                      vehicula odio, a tincidunt
-                      turpis turpis tempus ex.
+                      Throughout the development
+                      and by the rules of Agile
+                      methodology, testing will be
+                      done by utilizing necessary
+                      techniques. During software
+                      testing user feedback will
+                      be critical, in order to
+                      take appropriate course of
+                      action.
                     </p>
                   </div>
                 </li>
@@ -222,21 +225,22 @@ export default function HomeContainer() {
                 <li>
                   <div className="flex">
                     <h1 className="text-sm font-semibold text-white md:text-sm lg:text-lg">
-                      Copywrite
+                      Deployment & Maintenance
                     </h1>
                   </div>
                 </li>
                 <li>
                   <div className="flex max-w-sm md:max-w-md">
                     <p className="text-sm text-white">
-                      Mauris neque libero, aliquet
-                      vel mollis nec, euismod sed
-                      tellus. Mauris convallis
-                      dictum elit id volutpat.
-                      Vivamus blandit, dolor vitae
-                      lacinia maximus, risus velit
-                      vehicula odio, a tincidunt
-                      turpis turpis tempus ex.
+                      We have several serverless
+                      deplyment services, as a
+                      result we will be going with
+                      the most cost effective
+                      service. Once Deployment is
+                      done, if need be then we
+                      will be fixing bugs, adding
+                      new features, and upgrading
+                      it as necessary.
                     </p>
                   </div>
                 </li>
