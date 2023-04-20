@@ -21,9 +21,19 @@ export default function PortfolioContainer() {
       sourceCodeUrl: "https://github.com/ShahzaibSE/pricing-ui-next-chakra-app.git"
     },
     {
-      name: "Rive Rocket Animation",
-      imageUrl: "/assets/todo-next-app.png",
-      sourceCodeUrl: "https://github.com/ShahzaibSE/todo-next-app.git"
+      name: "Cloud to Edge Presentation",
+      imageUrl: "/assets/cloud-to-edge-presentation.png",
+      sourceCodeUrl: "https://docs.google.com/presentation/d/1YicGqdDoHrlR86KTWklD54Z4XsPgZ5fSDeVR2TleBfM/edit?usp=sharing"
+    },
+    {
+      name: "Flutter E-Commerce Application",
+      imageUrl: "/assets/flutter-ecommerce-app.png",
+      sourceCodeUrl: "https://github.com/ShahzaibSE/flutter-ecommerce-app-shahzaib-noor.git"
+    },
+    {
+      name: "Expense Tracker using ReactJS",
+      imageUrl: "/assets/expense-tracker.png",
+      sourceCodeUrl: "https://github.com/ShahzaibSE/expense-tracker-app.git"
     },
   ];
   return (
