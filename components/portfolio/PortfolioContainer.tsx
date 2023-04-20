@@ -14,12 +14,22 @@ export default function PortfolioContainer() {
       name: "Rive Rocket Animation",
       imageUrl: "/assets/rive-rocket.png",
       sourceCodeUrl: "https://github.com/ShahzaibSE/rocket-rive-animation-next-app.git"
-    }
+    },
+    {
+      name: "Pricing UI with Chakra-UI",
+      imageUrl: "/assets/pricing-ui.png",
+      sourceCodeUrl: "https://github.com/ShahzaibSE/pricing-ui-next-chakra-app.git"
+    },
+    {
+      name: "Rive Rocket Animation",
+      imageUrl: "/assets/todo-next-app.png",
+      sourceCodeUrl: "https://github.com/ShahzaibSE/todo-next-app.git"
+    },
   ];
   return (
-    <div className="container flex flex-wrap justify-evenly items-center p-10">
+    <div className="grid grid-flow-row gap-6 p-10 lg:grid-cols-3">
       {
-        projects.map((project: Project, index: number) =>  <motion.div key={index} whileHover={{ scale: 1.2 }}><ProjectCard key={index} name={project.name} imageUrl={project.imageUrl} sourceCodeUrl={project.sourceCodeUrl} /></motion.div>)
+        projects.map((project: Project, index: number) => <ProjectCard key={index} name={project.name} imageUrl={project.imageUrl} sourceCodeUrl={project.sourceCodeUrl} />)
       }
     </div>
   )
