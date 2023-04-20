@@ -141,12 +141,21 @@ export default function HomeContainer() {
                 <li>
                   <div className="flex max-w-sm md:max-w-md">
                     <p className="text-sm text-white">
-                      I will be using latest state
-                      of the art technology in
-                      order to produce robust,
+                      We will be using latest
+                      state of the art technology
+                      in order to produce robust,
                       scalable and highly
                       performant software
-                      solutions.
+                      solutions. During the
+                      development phase, we will
+                      be writing code which is
+                      maintained well and adheres
+                      to standard coding
+                      practices. We will be using
+                      cutting edge technologies,
+                      while making sure tools are
+                      stable enough for
+                      development.
                     </p>
                   </div>
                 </li>
