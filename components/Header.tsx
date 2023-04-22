@@ -166,7 +166,7 @@ export default function Header() {
         </button>
       </div>
       <nav
-        className={`lg:flex lg:items-center lg:w-auto w-full ${
+        className={`md:flex md:items-center md:w-auto lg:flex lg:items-center lg:w-auto w-full ${
           navbar ? "block" : "hidden"
         }`}
       >

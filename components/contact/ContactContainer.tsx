@@ -170,7 +170,7 @@ export default function ContactContainer() {
         </div>
         <div className="flex flex-wrap flex-col items-center justify-between">
           <form>
-            <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2">
+            <div className="grid grid-flow-row lg:grid-flow-col lg:grid-cols-2">
               <div>
                 <div className="flex flex-col flex-wrap items-center justify-center md:items-start md:justify-center lg:items-start lg:justify-center">
                   <div className="py-6">
@@ -211,7 +211,7 @@ export default function ContactContainer() {
                 </div>
               </div>
               <div className="flex flex-col flex-wrap items-center justify-center md:items-start md:justify-evenly lg:items-start lg:justify-start">
-                <div className="md:mt-20 lg:mt-20 xl:mt-20">
+                <div className="md:mt-20">
                   <textarea
                     className="bg-neutral-800 text-white"
                     rows={7}
