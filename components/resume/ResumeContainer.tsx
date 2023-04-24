@@ -118,10 +118,7 @@ export default function ResumeContainer() {
                   Software Engineer
                 </h3>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                  Get started with dozens of web
-                  components and interactive
-                  elements built on top of
-                  Tailwind CSS.
+                  Qavi Technologies
                 </p>
               </li>
               <li className="ml-4">
@@ -133,10 +130,7 @@ export default function ResumeContainer() {
                   Web Developer
                 </h3>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                  Get started with dozens of web
-                  components and interactive
-                  elements built on top of
-                  Tailwind CSS.
+                  Invision Solutions
                 </p>
               </li>
               <li className="ml-4">
