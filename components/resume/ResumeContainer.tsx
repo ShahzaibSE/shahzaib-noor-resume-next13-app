@@ -37,50 +37,41 @@ export default function ResumeContainer() {
               <li className="mb-10 ml-4">
                 <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  February 2022
+                  March 2016
                 </time>
                 <h3 className="text-sm font-semibold text-white">
-                  Application UI code in Tailwind
-                  CSS
+                  Sir Syed University of
+                  Engineering and Technology,
+                  Karachi, Pakistan
                 </h3>
                 <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
-                  Get access to over 20+ pages
-                  including a dashboard layout,
-                  charts, kanban board, calendar,
-                  and pre-order E-commerce &
-                  Marketing pages.
+                  Bachelors in Computer Science
                 </p>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                  2012 - 2016
                 </time>
                 <h3 className="text-sm font-semibold text-white">
-                  Marketing UI design in Figma
+                  Govt. Jinnah College, Karachi,
+                  Pakistan
                 </h3>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                  All of the pages and components
-                  are first designed in Figma and
-                  we keep a parity between the two
-                  versions even as we update the
-                  project.
+                  P R E - E N G I N E E R I N G
                 </p>
               </li>
               <li className="ml-4">
                 <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  April 2022
+                  2009
                 </time>
                 <h3 className="text-sm font-semibold text-white">
-                  E-Commerce UI code in Tailwind
-                  CSS
+                  Sir Syed Children Academy,
+                  Karachi, Pakistan
                 </h3>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                  Get started with dozens of web
-                  components and interactive
-                  elements built on top of
-                  Tailwind CSS.
+                  Science
                 </p>
               </li>
             </ol>
@@ -97,50 +88,79 @@ export default function ResumeContainer() {
               <li className="mb-10 ml-4">
                 <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  February 2022
+                  September 2020
                 </time>
                 <h3 className="text-sm font-semibold text-white">
-                  Application UI code in Tailwind
-                  CSS
+                  Software engineer
                 </h3>
                 <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
-                  Get access to over 20+ pages
-                  including a dashboard layout,
-                  charts, kanban board, calendar,
-                  and pre-order E-commerce &
-                  Marketing pages.
+                  Freelance
                 </p>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                  Aug 2018 - Sep 2020
                 </time>
                 <h3 className="text-sm font-semibold text-white">
-                  Marketing UI design in Figma
+                  Software engineer
                 </h3>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                  All of the pages and components
-                  are first designed in Figma and
-                  we keep a parity between the two
-                  versions even as we update the
-                  project.
+                  Prismpay
                 </p>
               </li>
               <li className="ml-4">
                 <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  April 2022
+                  Sep 2017 - Aug 2018
                 </time>
                 <h3 className="text-sm font-semibold text-white">
-                  E-Commerce UI code in Tailwind
-                  CSS
+                  Software Engineer
                 </h3>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
                   Get started with dozens of web
                   components and interactive
                   elements built on top of
                   Tailwind CSS.
+                </p>
+              </li>
+              <li className="ml-4">
+                <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                  May 2017 - Sep 2017
+                </time>
+                <h3 className="text-sm font-semibold text-white">
+                  Web Developer
+                </h3>
+                <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
+                  Get started with dozens of web
+                  components and interactive
+                  elements built on top of
+                  Tailwind CSS.
+                </p>
+              </li>
+              <li className="ml-4">
+                <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                  Jan 2017 - April 2017
+                </time>
+                <h3 className="text-sm font-semibold text-white">
+                  Python Intern
+                </h3>
+                <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
+                  Panacloud
+                </p>
+              </li>
+              <li className="ml-4">
+                <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                  June 2016 - Dec 2016
+                </time>
+                <h3 className="text-sm font-semibold text-white">
+                  Software Engineer(MEAN Stack)
+                </h3>
+                <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
+                  Rockville Technologies
                 </p>
               </li>
             </ol>
