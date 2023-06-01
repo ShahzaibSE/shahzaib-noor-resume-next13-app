@@ -261,7 +261,7 @@ export default function ResumeContainer() {
             <div className="mb-2 flex items-center justify-between">
               <div>
                 <span className="inline-block rounded-full py-1 px-2 text-xs font-semibold uppercase text-white">
-                  Express.js
+                  TailwindCSS
                 </span>
               </div>
               <div className="text-right">
